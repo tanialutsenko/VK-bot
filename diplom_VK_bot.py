@@ -190,7 +190,6 @@ def error_checking(error_checking):
         flag = "Error"
     return (flag)
 
-
 vk = vk_api.VkApi(token=token_community)
 longpoll = VkLongPoll(vk)
 
